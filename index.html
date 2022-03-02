@@ -58,11 +58,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#stack" class="nav-link">Stack</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#my-projects" class="nav-link">My Projects</a>
+            <li class="nav-item" data-level="2"><a href="#examps-of-my-projects" class="nav-link">Examps of my projects</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -73,11 +69,11 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p><img align="right" alt="Лебедев Сергей" src=".my_img/main.jpg" width="172px" /></p>
+<p><img align="right" alt="Лебедев Сергей" src="img/main.jpg" width="172px" />  </p>
 <h1 id="python-programmer">Python programmer</h1>
 <ul>
-<li>I created this website on Python library for generate static sites - <strong>mkdocs</strong>.</br>
-Documentation: <a href="https://www.mkdocs.org" target="_blank">mkdocs.org</a>.</li>
+<li>I created this website on Python library for generate static sites - <strong>mkdocs</strong>.<br />
+Documentation: <a href="https://www.mkdocs.org" target="_blank">mkdocs.org</a>.  </li>
 </ul>
 <h2 id="about-me"><strong>About me</strong></h2>
 <p>Hello! My name is Lebedev Sergey, i'm 36 years old.<br />
@@ -91,7 +87,7 @@ And parsers. Many-many parsers. Requests and bs4 for simple sites. Selenium and 
 Last year i write program for company, that load orders on popular Bulletin boards.<br />
 <strong>My experiens</strong><br />
 I have many experiens of understand, that wan't client and make it. Discuss projects and realize them.<br />
-<strong>Langiches</strong><br />
+<strong>languages</strong><br />
 1. Russian - 100%<br />
 native language<br />
 2. English - 60%<br />
@@ -99,19 +95,7 @@ good technical eng (read books and articles about prog without dictionaries),<br
 but haven't speak practice<br />
 3. Ivrit - 1%<br />
 several days ago i began learn it  </p>
-<h2 id="stack"><strong>Stack</strong></h2>
-<ul>
-<li>Python 3.0 (oop and functionals styles)</li>
-<li>Sqlite</li>
-<li>Work with xml (etree)</li>
-<li>Google disk api with googleapiclient</li>
-<li>Work with image with PIL</li>
-<li>Avito api</li>
-<li>Bitrix24 api</li>
-<li>Telegram bot api</li>
-<li>Amocrm api</li>
-</ul>
-<h2 id="my-projects"><strong>My Projects</strong></h2>
+<h2 id="examps-of-my-projects"><strong>Examps of my projects</strong></h2>
 <h3 id="1-program-for-load-adds-to-avitoru-tiuru-jaziru">1. Program for load adds to <a href="https://avito.ru" target="_blank">avito.ru</a>, <a href="https://tiu.ru" target="_blank">tiu.ru</a>, <a href="https://jazi.ru" target="_blank">jazi.ru</a></h3>
 <p>This is an internal program for the company. The program can:<br />
 1-1. Get xml of any subspecies from clients<br />
@@ -139,18 +123,35 @@ help company work with hunders clients.<br />
 the architecture of the code has changed continuously. Most of the tasks were done urgently.<br />
 And there was no time to streamline the code. New developments have always been a priority.<br />
 However, I managed to keep the code readable and maintainable for other developers,<br />
-despite the fact that this was my first such a large and continuous project without allocating time for optimization.</p>
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul></div>
+despite the fact that this was my first such a large and continuous project without allocating time for optimization.  </p>
+<h3 id="2-analysis-of-the-issuance-of-avitoru">2. Analysis of the issuance of <a href="https://avito.ru" target="_blank">avito.ru</a></h3>
+<p><a href="https://github.com/ezjikfrom/avito_analysis" target="_blank">GitHub code</a><br />
+I can show this code because I made it for myself<br />
+This analize Avito by querry and write result in google sheet.<br />
+It help make more effective adds in avito.<br />
+<strong>External Libreries</strong>: openpyxl, requests, bs4, pandas, gspread, gspread_dataframe, fake_useragent  </p>
+<h3 id="3-parsers">3. Parsers</h3>
+<p>Many various parsers. Example you can see in №2 (Analysis avito).<br />
+<strong>External Libreries</strong>: openpyxl, requests, bs4, pandas, gspread, gspread_dataframe,<br />
+fake_useragent, selenium chrome and moziilla (if we need js and imitate ordinary user)  </p>
+<h3 id="4-telegram-bot-which-allows-you-to-respond-to-customers-from-message-avitoru">4. Telegram bot which allows you to respond to customers from message <a href="https://avito.ru" target="_blank">avito.ru</a></h3>
+<p>In this project i use simple server flask and sqlite.<br />
+Unfortunately, in my work, databases were very rarely needed,<br />
+because Google Sheets was an ideal repository with the ability<br />
+to edit data by users. This made it possible not to develop a<br />
+separate interface for working with data.  </p>
+<p>In this block i had big problems with avito api -<br />
+avito make it recently and it not always work (this made testing very difficult).<br />
+I met many mistakes, what not described in the documentation avito api.<br />
+<strong>External Libreries</strong>: requests, json, flask, sqlite3, telethon (telegram client)<br />
+Early, 2-3 years ago i make about several 10 bots for telegram with keyboards and useful functionality  </p>
+<h3 id="5-api-integration-in-bitrix24-and-amocrm">5. API integration in <a href="https://www.bitrix24.ru" target="_blank">Bitrix24</a> and <a href="https://www.amocrm.ru/" target="_blank">Amocrm</a></h3>
+<p>5-1. And load data to google sheets, to make<br />
+deeply customizable individual reports for business<br />
+5-2. Take all data to migrate in other crm/erp (usually from amo to b24)<br />
+5-3. Integrate with customs sites<br />
+5-4. Integrate with external api telephony (only info about calls, not calls)
+5-5. Complex automations inside crm that are not available in standard functionality</p></div>
             </div>
         </div>
 
@@ -231,5 +232,5 @@ despite the fact that this was my first such a large and continuous project with
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-03-02 16:50:48.450845+00:00
+Build Date UTC : 2022-03-02 18:38:22.525058+00:00
 -->
