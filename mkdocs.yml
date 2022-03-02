@@ -1,6 +1,4 @@
-site_name: Resume Lebedev Sergey
+site_name: Lebedev Sergey
 site_url: https://ezjikfrom.github.io/Lebedev.Proger/site/
-nav:
-    - About me: index.md
-    - Background: index.md
-    - End: index.md
+
+
