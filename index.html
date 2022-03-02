@@ -58,11 +58,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#development-skills" class="nav-link">Development skills</a>
+            <li class="nav-item" data-level="2"><a href="#stack" class="nav-link">Stack</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#projects" class="nav-link">Projects</a>
+            <li class="nav-item" data-level="2"><a href="#my-projects" class="nav-link">My Projects</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -80,15 +80,26 @@
 Documentation: <a href="https://www.mkdocs.org" target="_blank">mkdocs.org</a>.</li>
 </ul>
 <h2 id="about-me"><strong>About me</strong></h2>
-<p>Hello! My name is Lebedev Sergey, i'm 36 years old.</br>
-My hobby - Python became all my live now.</br>
-Most part i work in larges it progects in Russia (avito.ru, prom.ua, greeder.lv), but not as programmer. I was manager.</br>
-Five years ago i began integrate crm (and erp) system <a href="https://www.bitrix24.ru" target="_blank">Bitrix24</a> in companies.</br></p>
-<p>Langiches
-Russian
-English
-Ivrit</p>
-<h2 id="development-skills"><strong>Development skills</strong></h2>
+<p>Hello! My name is Lebedev Sergey, i'm 36 years old.<br />
+My hobby - Python became all my live now.<br />
+<strong>Go to programming</strong><br />
+Most part i work in larges it progects in Russia (avito.ru, prom.ua, greeder.lv), but not as programmer. I was manager.<br />
+Five years ago i began integrate crm (and erp) system <a href="https://www.bitrix24.ru" target="_blank">Bitrix24</a> in companies.<br />
+I began write code for integration bitrix24 and other system (sites, ip-tel, google-tables).<br />
+And parsers. Many-many parsers. Requests and bs4 for simple sites. Selenium and bs4 for sites, were need js and what have protection from pars.<br />
+<strong>Programming full time</strong><br />
+Last year i write program for company, that load orders on popular Bulletin boards.<br />
+<strong>My experiens</strong><br />
+I have many experiens of understand, that wan't client and make it. Discuss projects and realize them.<br />
+<strong>Langiches</strong><br />
+1. Russian - 100%<br />
+native language<br />
+2. English - 60%<br />
+good technical eng (read books and articles about prog without dictionaries),<br />
+but haven't speak practice<br />
+3. Ivrit - 1%<br />
+several days ago i began learn it  </p>
+<h2 id="stack"><strong>Stack</strong></h2>
 <ul>
 <li>Python 3.0 (oop and functionals styles)</li>
 <li>Sqlite</li>
@@ -100,8 +111,35 @@ Ivrit</p>
 <li>Telegram bot api</li>
 <li>Amocrm api</li>
 </ul>
-<h2 id="projects"><strong>Projects</strong></h2>
-<h4 id="avito_xml">Avito_xml</h4>
+<h2 id="my-projects"><strong>My Projects</strong></h2>
+<h3 id="1-program-for-load-adds-to-avitoru-tiuru-jaziru">1. Program for load adds to <a href="https://avito.ru" target="_blank">avito.ru</a>, <a href="https://tiu.ru" target="_blank">tiu.ru</a>, <a href="https://jazi.ru" target="_blank">jazi.ru</a></h3>
+<p>This is an internal program for the company. The program can:<br />
+1-1. Get xml of any subspecies from clients<br />
+<strong>External Libreries</strong>: xml.etree.ElementTree,bs4,codecs,urllib.request<br />
+1-2. Automatically upload data to Google spreadsheets and change them automatically (recognition of categories, editing the name, description, cost and other parameters)<br />
+<strong>External Libreries</strong>: google.oauth2, googleapiclient<br />
+After realize module i understand, that google api have limit of querry. And later we make several api accaunts and switch between it.<br />
+1-3. Create xml tables of your own format from Google for each site<br />
+<strong>External Libreries</strong>: pandas, gspread, gspread_dataframe<br />
+1-4. Generate and overlay text on the photo from product parameters on the fly<br />
+<strong>External Libreries</strong>: cv2, numpy, PIL<br />
+1-5. Change the aspect ratio in the photo on the fly<br />
+<strong>External Libreries</strong>: PIL<br />
+1-6. Overlay other pictures on the main photo on the fly<br />
+<strong>External Libreries</strong>: PIL<br />
+1-7. Auto change background of image
+<strong>External Libreries</strong>: PIL, cv2<br />
+1-8. Load and read ftp. Different ftp for dif clients
+<strong>External Libreries</strong>: ftplib, io<br />
+1-9. Change size of photo and make collages from photo (еo bypass blocking)<br />
+<strong>External Libreries</strong>: PIL  </p>
+<p><strong>Summary</strong>
+This project mast be automat for 1 client. But became big program that<br />
+help company work with hunders clients.<br />
+the architecture of the code has changed continuously. Most of the tasks were done urgently.<br />
+And there was no time to streamline the code. New developments have always been a priority.<br />
+However, I managed to keep the code readable and maintainable for other developers,<br />
+despite the fact that this was my first such a large and continuous project without allocating time for optimization.</p>
 <ul>
 <li></li>
 <li></li>
@@ -193,5 +231,5 @@ Ivrit</p>
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-03-02 13:35:16.509654+00:00
+Build Date UTC : 2022-03-02 16:50:48.450845+00:00
 -->
